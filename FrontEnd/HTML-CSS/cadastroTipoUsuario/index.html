@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - VolksWay</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="../header/js/script.js"></script>
+    <link rel="icon" type="image/png" href="../home/img/logo_voksway.png" />
+</head>
+
+<body>
+    <header class="direction_row align_center posicionamento_header">
+        <a href="../home/index.html#"><img src="../home/img/logo_voksway.png" alt="Logo da VolksWay"></a>
+
+        <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Abrir um menu"
+            aria-controls="links" aria-expanded="false" aria-haspopup="true"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg></a>
+
+        <nav class="space_evenly links" id="links">
+            <div>
+                <a href="#">volks<span>way</span></a>
+                <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Fechar um menu"
+                    aria-controls="links" aria-expanded="true" aria-haspopup="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                    </svg>
+                </a>
+            </div>
+
+            <a class="navegacao_header" href="../home/index.html#noticias">Noticias</a>
+            <a class="navegacao_header" href="../home/index.html#quem_somos">Quem somos</a>
+            <a class="navegacao_header" href="../home/index.html#por_que">Por que a
+                VolksWay?</a>
+            <a class="navegacao_header" href="../home/index.html#contato">Contato</a>
+        </nav>
+    </header>
+
+    <body>
+
+
+        <main>
+
+            <a href="../home/index.html#">
+                <div class="div_voltar">
+                    <img class="seta_voltar" src="../cadastroTipoUsuario/img/img_setaVoltar-semFundo.png" alt="">
+                    <a href="../home/index.html#" class="aVoltar">Voltar</a>
+                </div>
+            </a>
+
+            <section class="section">
+                <div class="conteudo">
+                    <div class="quemEVoce">
+                        <p class="quem_e_voce">Quem é você?</p>
+                    </div>
+
+                    <div class="seDestaca">
+                        <span class="se_destaca">a Volks Way se destaca por sua plataforma de promoções e eventos
+                            exclusivos para motoristas, administradores de frota e proprietários de caminhões. Nossa
+                            plataforma permite que esses profissionais participem de eventos, concursos e promoções
+                            exclusivas, além de receberem informações relevantes sobre o setor de transportes.</span>
+                    </div>
+                    <div class="perguntaOpcao">
+                        <p class="pergunta_opcao">Qual das opções abaixo melhor descreve a sua situação?</p>
+                    </div>
+
+                    <div class="tres_opcoes">
+                        <div class="motorista">
+                            <img class="img_motorista"
+                                src="../cadastroTipoUsuario/img/img_cadastroMotorista_semFundo.png" alt="">
+                            <a class="a_motorista" href="">Motorista</a>
+                        </div>
+
+                        <div class="adm_de_frota">
+                            <img class="img_adm_de_frota"
+                                src="../cadastroTipoUsuario/img/img_cadastroAdmDeFrota_semFundo.png" alt="">
+                            <a class="a_adm_de_frota" href="">Administrador de frota</a>
+                        </div>
+
+                        <div class="proprietario">
+                            <img class="img_proprietario"
+                                src="../cadastroTipoUsuario/img/img_cadastroProprietario_semFundo.png" alt="">
+                            <a class="a_proprietario" href="">Proprietário de veículos</a>
+                        </div>
+                    </div>
+
+                    <div class="btn_proximo">
+                        <a class="btnProximo" href="../cadastroVeiculo/cadastroVeiculo.html#">Próximo</a>
+                    </div>
+                </div>
+
+                <div class="imgIlustracao">
+                    <img class="ilustracao" src="../cadastroTipoUsuario/img/img_ilustracaoPessoasComBalao_semFundo.png"
+                        alt="">
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container_80">
+                <span class="texto_privacidade">Entenda como estes dados serão utilizados na Volksway, conheça nossa <a
+                        href="../privacidade/privacidade.html#">Política de Privacidade</a>.</span>
+            </div>
+            <div class="box_footer"></div>
+        </footer>
+    </body>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo_vwco_semfundo_branco" src="../HTML-CSS/img/logo_vwco_semfundo_branco.png" alt="logo_vwco_semfundo_branco">
+
+        <nav>
+            <a href="">Noticias</a>
+            <a href="">Quem somos</a>
+            <a href="">Por que a VolksWay?</a>
+            <a href="">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="div_voltar">
+            <img class="seta_voltar" src="../HTML-CSS/img/img_setaVoltar-semFundo.png" alt="">
+            <span>Voltar</span>
+        </div>
+
+        <section class="section">
+        <div class="conteudo">
+            <div class="quemEVoce">
+                <p class="quem_e_voce">quem é voce?</p>
+            </div>
+
+            <div class="seDestaca">
+                <span class="se_destaca" >a Volks Way se destaca por sua plataforma de promoções e eventos exclusivos para motoristas, administradores de frota e proprietários de caminhões. Nossa plataforma permite que esses profissionais participem de eventos, concursos e promoções exclusivas, além de receberem informações relevantes sobre o setor de transportes.</span>
+            </div>
+            <div class="perguntaOpcao">
+                <p class="pergunta_opcao" >qual das opcoes abaixo melhor descreve a sua situacao</p>
+            </div>
+
+                <div class="tres_opcoes">
+                    <div class="motorista" >
+                        <img class="img_motorista" src="../HTML-CSS/img/img_cadastroMotorista_semFundo.png" alt="">
+                        <a class="a_motorista" href="">motorista</a>
+                    </div>
+
+                    <div class="adm_de_frota">
+                        <img class="img_adm_de_frota" src="../HTML-CSS/img/img_cadastroAdmDeFrota_semFundo.png" alt="">
+                        <a class="a_adm_de_frota" href="">administrador de frota</a>
+                    </div>
+
+                    <div class="proprietario">
+                        <img class="img_proprietario" src="../HTML-CSS/img/img_cadastroProprietario_semFundo.png" alt="">
+                        <a class="a_proprietario" href="">proprietário de veículos</a>
+                    </div>
+                </div>
+
+                 <div class="btn_proximo">
+                    <a class = "btnProximo" href="">proximo</a>
+                </div>
+            </div>
+
+        <div class="imgIlustracao">
+            <img class="ilustracao" src="../HTML-CSS/img/img_ilustracaoPessoasComBalao_semFundo.png" alt="">
+        </div>
+    </section>
+
+</main>
+
+    <footer>
+
+        <div class="politica_de_privacidade" >
+            <span class="texto_politica_de_privacidade">entenda como estes dados serão utilizados na Volks Way, conheça nossa</span>
+            <a class="link_politica_de_privacidade" href="">política de privacidade</a>
+        </div>
+
+    </footer>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo_vwco_semfundo_branco" src="../HTML-CSS/img/logo_vwco_semfundo_branco.png" alt="logo_vwco_semfundo_branco">
+
+        <nav>
+            <a href="">Noticias</a>
+            <a href="">Quem somos</a>
+            <a href="">Por que a VolksWay?</a>
+            <a href="">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="div_voltar">
+            <img class="seta_voltar" src="../HTML-CSS/img/img_setaVoltar-semFundo.png" alt="">
+            <span>Voltar</span>
+        </div>
+
+        <section class="section">
+        <div class="conteudo">
+            <div class="quemEVoce">
+                <p class="quem_e_voce">quem é voce?</p>
+            </div>
+
+            <div class="seDestaca">
+                <span class="se_destaca" >a Volks Way se destaca por sua plataforma de promoções e eventos exclusivos para motoristas, administradores de frota e proprietários de caminhões. Nossa plataforma permite que esses profissionais participem de eventos, concursos e promoções exclusivas, além de receberem informações relevantes sobre o setor de transportes.</span>
+            </div>
+            <div class="perguntaOpcao">
+                <p class="pergunta_opcao" >qual das opcoes abaixo melhor descreve a sua situacao</p>
+            </div>
+
+                <div class="tres_opcoes">
+                    <div class="motorista" >
+                        <img class="img_motorista" src="../HTML-CSS/img/img_cadastroMotorista_semFundo.png" alt="">
+                        <a class="a_motorista" href="">motorista</a>
+                    </div>
+
+                    <div class="adm_de_frota">
+                        <img class="img_adm_de_frota" src="../HTML-CSS/img/img_cadastroAdmDeFrota_semFundo.png" alt="">
+                        <a class="a_adm_de_frota" href="">administrador de frota</a>
+                    </div>
+
+                    <div class="proprietario">
+                        <img class="img_proprietario" src="../HTML-CSS/img/img_cadastroProprietario_semFundo.png" alt="">
+                        <a class="a_proprietario" href="">proprietário de veículos</a>
+                    </div>
+                </div>
+
+                 <div class="btn_proximo">
+                    <a class = "btnProximo" href="">proximo</a>
+                </div>
+            </div>
+
+        <div class="imgIlustracao">
+            <img class="ilustracao" src="../HTML-CSS/img/img_ilustracaoPessoasComBalao_semFundo.png" alt="">
+        </div>
+    </section>
+
+</main>
+
+    <footer>
+
+        <div class="politica_de_privacidade" >
+            <span class="texto_politica_de_privacidade">entenda como estes dados serão utilizados na Volks Way, conheça nossa</span>
+            <a class="link_politica_de_privacidade" href="">política de privacidade</a>
+        </div>
+
+    </footer>
+</body>
+
+</html> -->
