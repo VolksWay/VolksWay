@@ -40,13 +40,13 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations. (R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_checklist, R.id.nav_sos, R.id.nav_perfil
+                R.id.nav_home, R.id.nav_checklist, R.id.nav_sos, R.id.nav_sair
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        navView.menu.findItem(R.id.nav_home).setOnMenuItemClickListener { menu ->
+        navView.menu.findItem(R.id.nav_sair).setOnMenuItemClickListener { menu ->
             val mainIntent = Intent(this@MainActivity, LoginActivity::class.java)
             startActivity(mainIntent)
             finish()
@@ -56,6 +56,16 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
+//    private fun setupCheckBoxListener() {
+//        myCheckBox.setOnCheckedChangeListener { buttonView, isChecked ->
+//            if (isChecked) {
+//                Toast.makeText(this@MainActivity, "Caixa de seleção marcada", Toast.LENGTH_SHORT).show()
+//            } else {
+////                Toast.makeText
+//            }
+//        }
+//    }
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
